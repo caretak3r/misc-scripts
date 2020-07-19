@@ -1,8 +1,10 @@
 ## Vimeo downloader
-## __author__: 'caretak3r'
-## __project__: 'https://github.com/eMBee/vimeo-download'
+### __author__: 'caretak3r'
+### __project__: 'https://github.com/eMBee/vimeo-download'
 
-This script is useful for cases where youtube-dl is unable to find the master url, for example on pages that require login or cookies.
+This script is useful for cases where youtube-dl is unable to find the master url, for example on pages that require login or cookies. 
+
+~@caretak3r's custom tweaked version ~
 
 Installation 
 =======
@@ -34,6 +36,16 @@ First you need the `master.json` request which has an ~hmac~ for rented/ondemand
 ####Basic Steps: 
 Load vimeo URL --> Open personal inspector --> play the video --> look for this:
 
+`what the request looks like when you play the video`
+![alt text][logo1]
+
+[logo1]: https://user-images.githubusercontent.com/50377477/80322700-bf54d800-87f4-11ea-83de-e8d6ca6c1b8f.png
+
+
+`what the URL request and querystring looks like`
+![alt text][logo2]
+
+[logo2]: https://user-images.githubusercontent.com/50377477/80322704-c1b73200-87f4-11ea-9338-77f6a06434e7.png
 
 To get the master url:
    1. Open the network tab in the inspector
